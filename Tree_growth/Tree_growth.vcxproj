@@ -137,10 +137,12 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Element_Environment.h" />
     <ClInclude Include="Element_Soil.h" />
     <ClInclude Include="Environment.h" />
     <ClInclude Include="Environment_Elements.h" />
     <ClInclude Include="Environment_Generation.h" />
+    <ClInclude Include="Element_Resource.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

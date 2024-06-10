@@ -13,6 +13,8 @@ private:
 
 	void _G_SET_SOIL_(std::vector<Soil>& soils, sf::Vector2f size);
 
+	void _G_SET_RESOURCE_(std::vector<Resource>& resources, std::vector<Soil>& soils, sf::Vector2f size);
+
 public:
 
 	Environment_Generation() : level_soil(0.0), level_resource(0.0), level_void(0.0) {}
